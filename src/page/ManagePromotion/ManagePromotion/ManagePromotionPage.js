@@ -48,12 +48,6 @@ class ManagePromotionPage extends Component {
         key: 'no'
       },
       {
-        title: 'Description',
-        dataIndex: 'type',
-        key: 'type',
-        align: 'center'
-      },
-      {
         title: 'Amount',
         dataIndex: 'discount',
         key: 'discount',

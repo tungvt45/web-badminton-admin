@@ -76,7 +76,7 @@ class ManageFCModal extends Component {
                 {getFieldDecorator('producer', {
                   initialValue:
                     mode === MODE.EDIT && itemSelected.producer
-                      ? itemSelected.producer.id
+                      ? itemSelected.producer.name
                       : ''
                 })(<Input disabled />)}
               </Form.Item>
@@ -89,7 +89,7 @@ class ManageFCModal extends Component {
                 {getFieldDecorator('promotion', {
                   initialValue:
                     mode === MODE.EDIT && itemSelected.promotion
-                      ? itemSelected.promotion.id
+                      ? itemSelected.promotion.discount
                       : ''
                 })(<Input disabled />)}
               </Form.Item>

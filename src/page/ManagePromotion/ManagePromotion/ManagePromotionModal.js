@@ -47,7 +47,7 @@ class ManagePromotionModal extends Component {
         onCancel={() => this.props.cancelModal()}
       >
         <Form>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-12">
               <span className="lab-text">Type</span>
               <Form.Item>
@@ -57,7 +57,7 @@ class ManagePromotionModal extends Component {
                 })(<Input placeholder="Mô tả" maxLength={100} />)}
               </Form.Item>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-md-12">
               <span className="lab-text">Amount</span>
