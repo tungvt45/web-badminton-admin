@@ -1,0 +1,32 @@
+.Order-container {
+  font-size: 20px;
+  display: flex;
+  height: 100vh;
+  .left-container {
+    width: 70%;
+  }
+  .right-container {
+    width: 30%;
+    padding: 25px;
+    font-size: 30px;
+    background: #e6e6e6;
+    .ant-list-split .ant-list-item {
+      border-bottom: none;
+      background: white;
+      margin: 10px 0;
+      border-radius: 10px;
+      .ant-list-item-meta-title {
+        font-size: 25px;
+      }
+      .ant-list-item-meta-description {
+        font-size: 20px;
+      }
+    }
+  }
+  .ant-table-thead {
+    font-size: 30px;
+  }
+  .ant-table-tbody {
+    font-size: 25px;
+  }
+}
